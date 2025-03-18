@@ -6,15 +6,14 @@ import "./app.css"
 
 // Component imports
 import TransferForm from "./components/TransferForm"
-
+import BuyCreditsForm from "./components/BuyCreditsForm.jsx"
 import BurnCreditsForm from "./components/BurnCreditsForm"
 import MarketplaceSection from "./components/MarketplaceSection"
 import TokenInfoCard from "./components/TokenInfoCard"
 import ApproveForm from "./components/ApproveForm"
 import TransactionHistory from "./components/TransactionHistory"
-import BuyCreditsForm from "./components/BuyCreditsForm.jsx"
 
-function App() {
+function ContractInterface() {
   const [account, setAccount] = useState("")
   const [contract, setContract] = useState(null)
   const [isConnected, setIsConnected] = useState(false)
@@ -981,5 +980,5 @@ function App() {
   )
 }
 
-export default App
+export default ContractInterface
 
